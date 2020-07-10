@@ -1,0 +1,28 @@
+
+img {
+    width: 200px;
+    height:200px;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+ul {
+    background-color: palegoldenrod;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    color: grey;
+    border: solid;
+    padding-inline-start: 0px;
+    margin: 30px;
+    transition: 0.8s all;
+}
+ul:hover{
+    -webkit-transform: rotate(360deg);  /* to support Safari and Android browser */
+    -ms-transform: rotate(360deg);      /* to support IE 9 */
+    transform: rotate(360deg);
+}
